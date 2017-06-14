@@ -1,0 +1,135 @@
+-----------------------------------------------------------------------------
+
+Plotting the Histograms
+Close all the histogram plots to continue with the program execution
+
+-----------------------------------------------------------------------------
+
+Pearson Values for the Train Data
+
+Column  Pearson Co-efficient
+   CRIM             -0.387697
+     ZN              0.362987
+  INDUS             -0.483067
+   CHAS              0.203600
+    NOX             -0.424830
+     RM              0.690923
+    AGE             -0.390179
+    DIS              0.252421
+    RAD             -0.385492
+    TAX             -0.468849
+PTRATIO             -0.505271
+      B              0.343434
+  LSTAT             -0.739970
+
+-----------------------------------------------------------------------------
+
+Linear Regression on Test and Train Data
+
+Train Mean Square Error = 20.950144508
+Test Mean Square Error = 28.4179164975
+
+-----------------------------------------------------------------------------
+
+Ridge Regression
+
+lambda = 0.01
+Train Mean Square Error  20.9501449007
+Test Mean Square Error  28.4182927619
+
+lambda = 0.1
+Train Mean Square Error  20.9501837112
+Test Mean Square Error  28.4216969435
+
+lambda = 1
+Train Mean Square Error  20.9539971078
+Test Mean Square Error  28.4574903672
+
+-----------------------------------------------------------------------------
+
+Ridge Regression with Cross Validation
+
+lambda = 0.0001
+Train Mean Square Error = 20.8387736407
+Test Mean Square Error = 23.1898332109
+
+lambda = 0.001
+Train Mean Square Error = 20.8387736456
+Test Mean Square Error = 23.1898202698
+
+lambda = 0.01
+Train Mean Square Error = 20.8387741269
+Test Mean Square Error = 23.1896913148
+
+lambda = 0.1
+Train Mean Square Error = 20.8388221652
+Test Mean Square Error = 23.1884471825
+
+lambda = 1.0
+Train Mean Square Error = 20.8435325777
+Test Mean Square Error = 23.1804458359
+
+lambda = 10.0
+Train Mean Square Error = 21.2501185035
+Test Mean Square Error = 23.475055286
+
+-----------------------------------------------------------------------------
+
+Ridge Regression after Cross Validation for different lambda values
+
+lambda = 0.0001
+Train Mean Square Error = 20.950144508
+Test Mean Square Error = 28.4179202582
+
+lambda = 0.001
+Train Mean Square Error = 20.9501445119
+Test Mean Square Error = 28.4179541062
+
+lambda = 0.01
+Train Mean Square Error = 20.9501449007
+Test Mean Square Error = 28.4182927619
+
+lambda = 0.1
+Train Mean Square Error = 20.9501837112
+Test Mean Square Error = 28.4216969435
+
+lambda = 1.0
+Train Mean Square Error = 20.9539971078
+Test Mean Square Error = 28.4574903672
+
+lambda = 10.0
+Train Mean Square Error = 21.2871171137
+Test Mean Square Error = 28.9854896987
+
+-----------------------------------------------------------------------------
+
+Linear Regression for Features with four of the highest Pearson Co-relation Co-efficients Selection
+
+['LSTAT', 'RM', 'PTRATIO', 'INDUS']
+Train Mean Square Error = 26.4066042155
+Test Mean Square Error = 31.4962025449
+
+-----------------------------------------------------------------------------
+
+Linear Regression for Features with four of the highest Pearson Co-relation Co-efficients using Residue Values
+
+['LSTAT', 'RM', 'PTRATIO', 'CHAS']
+Train Mean Square Error = 25.1060222464
+Test Mean Square Error = 34.6000723135
+
+-----------------------------------------------------------------------------
+
+Linear Regression for Features using Brute Force Selection
+
+['CHAS', 'RM', 'PTRATIO', 'LSTAT']
+Train Mean Square Error = 25.1060222464
+Test Mean Square Error = 34.6000723135
+
+-----------------------------------------------------------------------------
+
+Linear Regression for Features with Feature Expansion
+
+Train Mean Square Error = 5.05978429711
+Test Mean Square Error = 14.555304972
+
+-----------------------------------------------------------------------------

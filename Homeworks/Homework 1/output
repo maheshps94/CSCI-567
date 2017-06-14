@@ -1,0 +1,69 @@
+NAIVE BAYES
+
+Testing Accuracy for Naive Bayes
+38.89%
+
+Training Accuracy for Naive Bayes
+53.57%
+
+
+K-NEAREST NEIGHBOR
+
+Testing Accuracy
+
+KNN Accuracy for Eucledian Distance
+
+K = 1
+61.11%
+
+K = 3
+61.11%
+
+K = 5
+50.0%
+
+K = 7
+44.44%
+
+KNN Accuracy for Manhattan Distance
+
+K = 1
+61.11%
+
+K = 3
+55.56%
+
+K = 5
+44.44%
+
+K = 7
+44.44%
+
+Training Accuracy
+KNN Accuracy for Eucledian Distance
+
+K = 1
+73.98%
+
+K = 3
+68.37%
+
+K = 5
+68.88%
+
+K = 7
+66.33%
+
+KNN Accuracy for Manhattan Distance
+
+K = 1
+74.49%
+
+K = 3
+71.94%
+
+K = 5
+71.94%
+
+K = 7
+68.37%
